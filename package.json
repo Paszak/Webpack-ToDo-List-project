@@ -1,0 +1,39 @@
+{
+  "name": "zadanie_16_7",
+  "version": "1.0.0",
+  "description": "Hot Module Replacement",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack",
+    "server": "http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Paszak/zadanie_16_7.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Paszak/zadanie_16_7/issues"
+  },
+  "homepage": "https://github.com/Paszak/zadanie_16_7#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.9",
+    "html-webpack-plugin": "^3.0.6",
+    "optimize-js-plugin": "0.0.4",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "style-loader": "^0.20.1",
+    "webpack": "^3.11.0",
+    "webpack-dev-server": "^2.11.2"
+  },
+  "dependencies": {
+    "uuid": "^3.2.1"
+  }
+}
