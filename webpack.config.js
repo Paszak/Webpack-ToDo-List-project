@@ -9,11 +9,10 @@ const env = process.env.NODE_ENV || 'development';
 
 console.log('NODE_ENV:', env);
 module.exports = {
-    entry: './src/index.js',
-        output: {
-        path: path.resolve(__dirname, 'build'),
-        filename: 'app.bundle.js'
-    },
+    entry: [
+            'react-hot-loader/patch',
+         './src/index.js'
+    ],
     module: {
         rules: [
             {
